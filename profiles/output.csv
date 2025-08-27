@@ -1,0 +1,2 @@
+n_layers,n_heads,d_ff,d_model,max_context_length,vocab_size,batch_size,avg_forward_time,avg_backward_time
+12,8,256,256,1024,10000,4,0.687772233360447,1.3747950925212353

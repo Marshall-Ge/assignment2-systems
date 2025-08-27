@@ -1,0 +1,9 @@
+# model options
+model:
+  n_layers: 12
+  n_heads: 8
+  d_ff: 256
+  d_model: 256
+  rope_theta:
+  max_context_length:
+  vocab_size:

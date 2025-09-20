@@ -25,7 +25,7 @@ def parse_options():
     parser.add_argument("--warmup_steps", type=int, default=5, help="Number of warmup steps for profiling")
     parser.add_argument("--forward_only", action='store_true' ,help="Profiling mode")
     parser.add_argument("--benchmark_steps", type=int, default=10, help="Number of benchmark steps for profiling")
-    parser.add_argument("--device", type=str, default="cpu", help="Device to use")
+    parser.add_argument("--device", type=str, default="auto", help="Device to use")
     parser.add_argument("--output_file", type=str, default="output.csv", help="Output file to save the results")
 
 
